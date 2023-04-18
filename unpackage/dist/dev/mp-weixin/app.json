@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/find/find",
+    "pages/404/404",
+    "pages/list/list"
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        "news/news",
+        "chat/chat"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab_icons/wx.png",
+        "selectedIconPath": "static/tab_icons/wx_s.png",
+        "text": "微信"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "static/tab_icons/list.png",
+        "selectedIconPath": "static/tab_icons/list_s.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/tab_icons/find.png",
+        "selectedIconPath": "static/tab_icons/find_s.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tab_icons/me.png",
+        "selectedIconPath": "static/tab_icons/me_s.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
